@@ -1,0 +1,23 @@
+{
+  "name": "evolution-lab/wordpress-plugin-framework",
+  "description": "Facilitiates creating WordPress plugins.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Amir Mahdi Khorshidi",
+      "email": "amkgplus@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/var-dumper": "^5.0",
+    "evolution-lab/version-checker": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Evo\\WordPress\\PluginFramework\\": "src"
+    }
+  }
+}
